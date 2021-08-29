@@ -1,0 +1,111 @@
+        * {
+            background-color: pink;
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 100vw;
+        }
+        
+        .heading {
+            text-align: center;
+            padding: 30px;
+            background-color: aqua;
+            margin: 40px;
+            margin-left: 300px;
+            margin-right: 300px;
+            border-radius: 2rem;
+        }
+        
+        .description {
+            border-radius: 2rem;
+            text-align: center;
+            padding: 30px;
+            background-color: aqua;
+            /* margin: 40px; */
+            margin-left: 300px;
+            margin-right: 300px;
+            font-size: larger;
+        }
+        
+        #bill-amount {
+            /* border-radius: 2rem; */
+            text-align: center;
+            margin-left: 300px;
+            margin-right: 300px;
+            font-size: larger;
+            padding-top: 10px;
+        }
+        
+        #bill-amount {
+            border-radius: 0.5rem;
+            text-align: center;
+            padding: 15px;
+            background-color: lightblue;
+            /* margin: 40px; */
+            margin-left: 300px;
+            margin-right: 300px;
+            font-size: larger;
+        }
+        
+        #cash-given {
+            border-radius: 0.5rem;
+            text-align: center;
+            padding: 15px;
+            background-color: lightblue;
+            /* margin: 40px; */
+            margin-left: 300px;
+            margin-right: 300px;
+            font-size: larger;
+        }
+        
+        label {
+            border-radius: 2rem;
+            margin-left: 300px;
+            margin-right: 300px;
+            font-size: larger;
+            text-align: center;
+            padding-top: 10px;
+            margin-top: 20px;
+            color: darkblue;
+            /* background-color: grey; */
+        }
+        
+        #check-button {
+            border-radius: 2rem;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            margin-left: 300px;
+            margin-right: 300px;
+            font-size: larger;
+            padding: 15px;
+            background-color: yellow;
+        }
+        
+        .change-table {
+            border-radius: 0.5rem;
+            margin-left: 300px;
+            margin-right: 300px;
+            font-size: larger;
+            -webkit-border-radius: 0.5rem;
+            -moz-border-radius: 0.5rem;
+            -ms-border-radius: 0.5rem;
+            -o-border-radius: 0.5rem;
+        }
+        
+        caption {
+            color: blue;
+            margin-left: 300px;
+            margin-right: 300px;
+            /* margin-bottom: 20px; */
+        }
+        
+        table,
+        th,
+        td {
+            size: larger;
+            border: 1px solid black;
+        }
